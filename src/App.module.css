@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(48, 48, 48);
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .image {
+    width: 370px;
+    margin-top: 50px;
+  }
+  .react-player { 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .player-wrapper {
+    position: relative;
+    padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+  }
+  
+  @media only screen and (max-width: 770px) {
+    .container {
+      margin: 0 10%;
+    }
+  
+    .image {
+      width: 100%;
+    }
+  }
